@@ -56,3 +56,7 @@ img {
 .bg-pink {
     background-color: #ffc0cb;
 }
+
+.justify {
+    text-align: justify;
+}

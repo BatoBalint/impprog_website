@@ -19,8 +19,11 @@
         <div class="container text-light">
             <div class="row mb-3">
                 <div class="col-sm-12 col-md-6 p-3">
-                    <h2>Mi az a quantum számítógép?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore officia aliquam, voluptatibus illo recusandae dicta veniam laboriosam, architecto rem quaerat dolorem et molestiae impedit libero tempore itaque cum corrupti facere.</p>
+                    <h2 class="mb-3">Mi az a quantum számítógép?</h2>
+                    <p class="justify">A quantum számítógép egy olyan számítógép ami úgynevezett qubitek segítségével végez számolásokat. 
+                        Annak ellenére, hogy már 1980-ban Paul Benioff felvázolt egy quantum mehenikára épülő turing-gépet, 1994-ben Peter Shor írt egy algoritmust egy szám 
+                        prím tényezős felbontására és 1998-ban Isaac Chuang megépítette az első 2 qubittel működő quantum számítógépet, még mindig nagy sebességgel fejlődnek
+                        az újabbnál újabb megjelenő modellek.</p>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <img class="img-fluid rounded-3" src="images/20191023-google-quantum-computer-lab-010.jpg" alt="Google quantum számítógépe">
@@ -28,11 +31,59 @@
             </div>
             <div class="row mb-3">
                 <div class="col-sm-12 col-md-6 p-3 order-md-1">
-                    <h2>Mi az a quantum számítógép?</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore officia aliquam, voluptatibus illo recusandae dicta veniam laboriosam, architecto rem quaerat dolorem et molestiae impedit libero tempore itaque cum corrupti facere.</p>
+                    <h2 class="mb-3">Miért hasznosak?</h2>
+                    <p class="justify">Legnagyobb előnyük a sebességükből adódik. Az eddigi legerősebbnek vélt számítógépek az úgynevezett szuper számítógépek voltak.
+                        Ezekből a leggyorsabbak pár száz petafloppot érnek el. 1 petaflop az másodpercenként ezer millió millió (10<sup>15</sup>)
+                         lebegőpontos számítást (egész vagy tört számokkal való műveletet mint például összeadást vagy szorzást) jelent. Ez eltörpűl néhány 
+                         quantum számítógép mellet. Egy kínai gép készítői <a class="link-info" href="https://www.indiatimes.com/technology/news/chinese-worlds-fastest-quantum-computer-552715.html">szerint</a> 
+                         sikerült google legerősebb szuper számítógépéhez képest egy 10 milliószor 
+                         gyorsabbat készíteniük. Ilyen sebesség mellett egy feladat pár percet venne ígénybe ami egy sima számítógépen akár 10000 évet. 
+                         Ekkora számítási teljesítménnyel fel lehet gyórsítani különböző kutatásokat mint példáúl néhány gyógyszer készítését.
+                    </p>
                 </div>
                 <div class="col-sm-12 col-md-6 order-md-0">
-                    <img class="img-fluid rounded-3" src="images/20191023-google-quantum-computer-lab-010.jpg" alt="Google quantum számítógépe">
+                    <img class="img-fluid rounded-3" src="images/chinasquantumcomputer.jpg" alt="Kína quantum számítógépe">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-12 col-md-6 p-3">
+                    <h2>Hátrányuk</h2>
+                    <p>Az egyik leg szembetűnőbb hátrány az ára. A legújabb gépek ára a dollár milliós területen ugrál és a fentrartásuk sem a legolcsóbb. 
+                        A másik nehézség a működtetésnél jön elő. Ezek a gépek borzasztóan érzékenyek és emiatt nagyon komoly körülmények mellett működnek. Pédául 
+                        ezek a gépek futásuk alatt abszolút 0 hőmérséklet környékén vannak tartva ami celziuszban -273 környékén mozog.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 p-3">
+                    <table class="table table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Quantum számítógép</th>
+                            <th scope="col">Sima számítógép</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Mivel számol?</th>
+                            <td>Quantum bitekkel avagy qubitekkel melyek elektronok vagy fotonok állapotával van eltárolva</td>
+                            <td>Sima bitekkel melyek magas vagy alacsony feszültséggel vannak tárolva</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Elterjedtsége</th>
+                            <td>Nagyon kevés létezik belőle az egész világon habár kezd egyre népszerübb lenni</td>
+                            <td>Legtöbb ember rendelkezik egyel valamilyen formában</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Nehézségek</th>
+                            <td>A qubitek ára mely elérheti akár a 10000 dollárt is és amelyekből a legujabb gépekbe akár 100 darab is kellhet sem 
+                                könnyítí meg a helyzetet és ezek mellett nagyon specifikus körülmények mellett lehet csak futtatni ezeket a quantum számítógépeket.
+                            </td>
+                            <td>Mivel teljesítményüket főként a bennük lévő tranzisztorok befojásolják és ezeket próbálják minnél kisebb helyre
+                                berakni, elértek egy pontot ahol már nem lehet jobban le kicsínyíteni ezeket trükközés nélkül ugyanis ezek csak pár atom szélesek.
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                 </div>
             </div>
         </div>
@@ -45,12 +96,13 @@
             <div class="row">
                 <div class="col-ms-12 col-md-6">
                     <ul>
-                        <li><a href="https://en.wikipedia.org/wiki/Quantum_computing" target="_blank" class="link-info">Wikipedia</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=JhHMJCUmq28" target="_blank" class="link-info">Kurzgesagt videója</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Quantum_computing" target="_blank" class="link-info">Wikipedia (Quantum computing)</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Qubit" target="_blank" class="link-info">Wikipedia (Qubit)</a></li>
                     </ul>
                 </div>
                 <div class="col-ms-12 col-md-6">
                     <ul>
+                        <li><a href="https://www.youtube.com/watch?v=JhHMJCUmq28" target="_blank" class="link-info">Kurzgesagt videója</a></li>
                     </ul>
                 </div>
             </div>
