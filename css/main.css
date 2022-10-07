@@ -1,0 +1,58 @@
+:root {
+    --main-bg: #cccccf;
+    --text-color: #222222;
+    --boxshadow-light-color: #ffffffaa;
+    --boxshadow-dark-color: #111111aa;
+    --rounding: 8px;
+}
+
+.bg-main {
+    background-color: var(--main-bg);
+}
+
+body {
+    background-color: var(--main-bg);
+    color: hotpink;
+}
+
+.neumorphism-container {
+    padding: 10px;
+    background-color: var(--main-bg);
+    border-radius: var(--rounding);
+    box-shadow: -3px -3px 7px #ffffffaa, 3px 3px 7px #111111aa;
+    width: min-content;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    border-radius: var(--rounding);
+}
+
+.spacer {
+    height: 50px;
+    background-color: transparent;
+}
+
+.toRight {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.bg-darker {
+    background-color: #222;
+}
+
+.bg-myblue {
+    background-color: #25CED1;
+}
+
+.bg-pink {
+    background-color: #ffc0cb;
+}
